@@ -1,7 +1,14 @@
 h1 {
-    color: #46484c;
+    color: teal;
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    color: gray;
     text-align: center;
 }
+
 p{
     color: #8b8b8bcc;
     font-size: 20px;
@@ -21,6 +28,7 @@ body{
     margin: 40px 20px 0 20px;
     font-size: 0;
     line-height: 45px;
+    font-family:sans-serif;
 }
 
 li {
@@ -41,12 +49,41 @@ li {
 
 .navbar {
     width: 70%;
-    text-align: left;
-    color: green;
+    text-align: center;
+    color: #025157;
+    
 }
 
+.menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
 .actions {
+    font-size: 14px;
+    font-weight: 600;
     width: 15%;
     text-align: left;
-    font-size: 14px;
+}
+
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+.actions a{
+    color: #67b54b ;
+} 
+
+.actions button{
+    color: white;
+    background-color: #67b54b;
+    padding-left: 12px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+
 }
