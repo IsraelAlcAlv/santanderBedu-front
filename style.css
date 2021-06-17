@@ -18,9 +18,7 @@ body{
 }
 
 .header{
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 40px 20px 0 20px;
     font-size: 0;
     line-height: 45px;
 }
@@ -43,12 +41,12 @@ li {
 
 .navbar {
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: green;
 }
 
 .actions {
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
 }
