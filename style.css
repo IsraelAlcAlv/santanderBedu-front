@@ -1,5 +1,9 @@
+body{
+    background-color: #f1e8de;
+}
+
 h1 {
-    color: teal;
+    color:  #025157;
     text-align: center;
     font-size: 45px;
 }
@@ -20,8 +24,12 @@ button{
     background-color: #025157;
 }
 
-body{
-    background-color: #fffbf7;
+.fixed-header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .header{
@@ -34,6 +42,7 @@ body{
 li {
     display: inline;
 }
+
 
 .header > * {
     display: inline-block;
@@ -87,3 +96,36 @@ li {
     border-radius: 5px;
 
 }
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.publish h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    color: #025157;
+}
+
+.publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+
+  .ex-video{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .ex-video img{
+      width: 120px;
+      margin-top: 10px;
+  }
