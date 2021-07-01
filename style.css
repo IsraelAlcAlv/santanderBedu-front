@@ -57,12 +57,12 @@ li {
     width: 15%;
 }
 
-.navbar {
+/* .navbar {
     width: 70%;
     text-align: center;
     color: #025157;
     
-}
+} */
 
 .menu-item {
     display: inline;
@@ -236,12 +236,24 @@ li {
       height: 300px;
   }
 
+.carousel-inner {
+    max-height: 100%;
+    height: 450px;
+}
+
+.Blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-    .navbar, .actions {
+/*.navbar, .actions {
         display: none;
-    }
+    } */
 
     h1 {
         font-size: 30px;
