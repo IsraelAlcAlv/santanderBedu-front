@@ -245,12 +245,43 @@ li {
 
     h1 {
         font-size: 30px;
-        margin-top: 100px;
+        margin-top: 120px;
     }
 
     h2 {
         font-size: 15px;
     }
+
+    .banner > img {
+        width: 100%;
+    }
+
+    .formulario > form {
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+        margin-top: 10px;
+        width: 65%;
+    }
+
+    .promo {
+        flex-direction: column;
+        max-width: 90%;
+        margin-top: 250px;
+    }
+
+    .ex-video > video {
+        width: 100%;
+    }
+
+    .publish {
+        margin-top: 10px;
+    }
+    
+    .features {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
